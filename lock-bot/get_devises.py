@@ -11,7 +11,6 @@ import os
 # .envファイルを読み込む (事前にTokenとSecretを.envに設定している場合)
 load_dotenv()
 
-# Step 1 で取得した情報を設定
 # .envから読み込む場合は以下のように設定
 TOKEN = os.getenv("SWITCHBOT_TOKEN", "YOUR_API_TOKEN_HERE")
 SECRET = os.getenv("SWITCHBOT_SECRET", "YOUR_API_SECRET_HERE").encode('utf-8')
