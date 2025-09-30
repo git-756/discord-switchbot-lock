@@ -1,0 +1,28 @@
+[project]
+name = "discord-switchbot-lock"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "SamuraiHumanGo_Mac", email = "gotechsamurai@samurai-human-go.com" }
+]
+dependencies = [
+    "discord-py>=2.6.3",
+    "requests>=2.32.5",
+    "python-dotenv>=1.1.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/discord_switchbot_lock"]
