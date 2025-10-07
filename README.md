@@ -27,17 +27,16 @@
 
 ---
 
-## 📜 ライセンス (License)
+## 📜 ライセンス
 
-このプロジェクトは **MIT License** のもとで公開されています。
+このプロジェクトは **MIT License** のもとで公開されています。ライセンスの全文については、[LICENSE](LICENSE) ファイルをご覧ください。
 
-また、このプロジェクトは以下のサードパーティ製ライブラリを使用しています。各ライブラリのライセンス条文の詳細は、プロジェクトルートの [`LICENSE`](LICENSE) ファイルをご確認ください。
+また、このプロジェクトはサードパーティ製のライブラリを利用しています。これらのライブラリのライセンス情報については、[NOTICE.md](NOTICE.md) ファイルに記載しています。
 
-* **discord.py**: MIT License
-* **requests**: Apache License 2.0
-* **python-dotenv**: BSD 3-Clause License
+## 作成者
+[Samurai-Human-Go](https://samurai-human-go.com/%e9%81%8b%e5%96%b6%e8%80%85%e6%83%85%e5%a0%b1/)
 
----
+**ブログ記事**: [【Mac miniではじめるPython IoT開発】Discord BotでSwitchBot Lockを遠隔操作する](https://samurai-human-go.com/python-discord-bot-switchbot-lock/)
 
 ## 💬 質問など (Questions)
 
